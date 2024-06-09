@@ -57,5 +57,10 @@ form {
 footer {
     text-align: center;
     margin-top: 20vh;
+    background: linear-gradient(45deg, #0088ff, #1E90FF);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: white;
+
 }
 
