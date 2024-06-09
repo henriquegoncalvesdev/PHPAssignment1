@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    width: 10vh;
+    height: 10vh;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th {
+    background: linear-gradient(45deg, #0088ff, #1E90FF);
+    color: white;
+    padding: 1vh;
+}
+
+td {
+    padding: 1vh;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e9e9e9;
+}
+
+
+form {
+    padding: 40px 4%;
+    max-width: 70vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 10vh;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 45vh;
+}
+  
+footer {
+    text-align: center;
+    margin-top: 20vh;
+}
+
